@@ -17,8 +17,9 @@ public class GetLocationTest extends AccuweatherAbstractTest {
 
         List<Location> response = given()
                 .queryParam("apikey", getApiKey())
+                .queryParam("q", "Samara")
                 .when()
-                .get(getBaseUrl()+"/locations/v1/cities/autocomplete?q=Samara")
+                .get(getBaseUrl()+"/locations/v1/cities/autocomplete")
                 .then()
                 .statusCode(200)
                 .time(Matchers.lessThan(2000l))

@@ -5,7 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="09b4bead-cdba-477c-a824-2b871ee9fb17" name="Changes" comment="add">
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/max/lesson3/home/accuweather/GetWeatherFifteenDayTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/max/lesson3/home/accuweather/GetWeatherOneDayTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/max/lesson3/home/accuweather/GetWeatherOneDayTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/max/lesson3/seminar/accuweather/GetWeatherFiveDayTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/max/lesson3/seminar/accuweather/GetWeatherFiveDayTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/accuweather.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/accuweather.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,9 +32,6 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="MavenRunner">
-    <option name="skipTests" value="true" />
-  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 2
 }</component>
@@ -41,100 +42,127 @@
     <option name="showLibraryContents" value="true" />
     <option name="showScratchesAndConsoles" value="false" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.GetLocationTest.getLocation_autocomplete_returnSamara.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.GetWeatherFiveDayTest.executor&quot;: &quot;Run&quot;,
-    &quot;Maven.auto [package].executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;lesson3&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Main.executor": "Run",
+    "JUnit.GetLocationTest.executor": "Run",
+    "JUnit.GetLocationTest.getLocation_autocomplete_returnSamara.executor": "Run",
+    "JUnit.GetWeatherFifteenDayTest.executor": "Run",
+    "JUnit.GetWeatherFifteenDayTest.getString.executor": "Run",
+    "JUnit.GetWeatherFiveDayTest.executor": "Run",
+    "JUnit.GetWeatherOneDayTest.executor": "Run",
+    "JUnit.GetWeatherOneDayTest.getString.executor": "Run",
+    "JUnit.GetWeatherTenDayTest.executor": "Run",
+    "Maven.auto [package].executor": "Run",
+    "Maven.auto [test].executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "lesson3",
+    "kotlin-language-version-configured": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.lookFeel",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="org.max.seminar2.provider" />
       <recent name="org.max.seminar2.subscriber" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.GetWeatherTenDayTest">
-    <configuration name="ConvertAmountsTestSpoonacular" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.GetWeatherFifteenDayTest">
+    <configuration name="GetWeatherFifteenDayTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="auto" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.max.lesson3.seminar.spoonacular.*" />
+          <option name="PATTERN" value="org.max.lesson3.home.accuweather.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.max.lesson3.seminar.spoonacular" />
-      <option name="MAIN_CLASS_NAME" value="org.max.lesson3.seminar.spoonacular.ConvertAmountsTestSpoonacular" />
+      <option name="PACKAGE_NAME" value="org.max.lesson3.home.accuweather" />
+      <option name="MAIN_CLASS_NAME" value="org.max.lesson3.home.accuweather.GetWeatherFifteenDayTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GetLocationTest.getLocation_autocomplete_returnSamara" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="GetWeatherFifteenDayTest.getWeatherFifteenDay_shouldReturn" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="auto" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.max.lesson3.seminar.accuweather.*" />
+          <option name="PATTERN" value="org.max.lesson3.home.accuweather.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.max.lesson3.seminar.accuweather" />
-      <option name="MAIN_CLASS_NAME" value="org.max.lesson3.seminar.accuweather.GetLocationTest" />
-      <option name="METHOD_NAME" value="getLocation_autocomplete_returnSamara" />
+      <option name="PACKAGE_NAME" value="org.max.lesson3.home.accuweather" />
+      <option name="MAIN_CLASS_NAME" value="org.max.lesson3.home.accuweather.GetWeatherFifteenDayTest" />
+      <option name="METHOD_NAME" value="getWeatherFifteenDay_shouldReturn" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GetWeatherFiveDayTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="GetWeatherOneDayTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="auto" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.max.lesson3.seminar.accuweather.*" />
+          <option name="PATTERN" value="org.max.lesson3.home.accuweather.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.max.lesson3.seminar.accuweather" />
-      <option name="MAIN_CLASS_NAME" value="org.max.lesson3.seminar.accuweather.GetWeatherFiveDayTest" />
+      <option name="PACKAGE_NAME" value="org.max.lesson3.home.accuweather" />
+      <option name="MAIN_CLASS_NAME" value="org.max.lesson3.home.accuweather.GetWeatherOneDayTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GetWeatherTenDayTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="GetWeatherOneDayTest.getString" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="auto" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.max.lesson3.seminar.accuweather.*" />
+          <option name="PATTERN" value="org.max.lesson3.home.accuweather.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.max.lesson3.seminar.accuweather" />
-      <option name="MAIN_CLASS_NAME" value="org.max.lesson3.seminar.accuweather.GetWeatherTenDayTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="PACKAGE_NAME" value="org.max.lesson3.home.accuweather" />
+      <option name="MAIN_CLASS_NAME" value="org.max.lesson3.home.accuweather.GetWeatherOneDayTest" />
+      <option name="METHOD_NAME" value="getString" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GetWeatherOneDayTest.getWeatherOneDay_shouldReturn" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="auto" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.max.lesson3.home.accuweather.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.max.lesson3.home.accuweather" />
+      <option name="MAIN_CLASS_NAME" value="org.max.lesson3.home.accuweather.GetWeatherOneDayTest" />
+      <option name="METHOD_NAME" value="getWeatherOneDay_shouldReturn" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.GetWeatherTenDayTest" />
-        <item itemvalue="JUnit.GetWeatherFiveDayTest" />
-        <item itemvalue="JUnit.ConvertAmountsTestSpoonacular" />
-        <item itemvalue="JUnit.GetLocationTest.getLocation_autocomplete_returnSamara" />
+        <item itemvalue="JUnit.GetWeatherFifteenDayTest" />
+        <item itemvalue="JUnit.GetWeatherFifteenDayTest.getWeatherFifteenDay_shouldReturn" />
+        <item itemvalue="JUnit.GetWeatherOneDayTest" />
+        <item itemvalue="JUnit.GetWeatherOneDayTest.getWeatherOneDay_shouldReturn" />
+        <item itemvalue="JUnit.GetWeatherOneDayTest.getString" />
       </list>
     </recent_temporary>
   </component>
@@ -161,6 +189,8 @@
       <workItem from="1711992464859" duration="2469000" />
       <workItem from="1712083899319" duration="24000" />
       <workItem from="1712084479708" duration="85000" />
+      <workItem from="1712084758729" duration="229000" />
+      <workItem from="1712231913745" duration="5423000" />
     </task>
     <task id="LOCAL-00001" summary="add">
       <option name="closed" value="true" />
@@ -207,5 +237,16 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add" />
     <option name="LAST_COMMIT_MESSAGE" value="add" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/org/max/lesson3/home/accuweather/GetWeatherFifteenDayTest.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

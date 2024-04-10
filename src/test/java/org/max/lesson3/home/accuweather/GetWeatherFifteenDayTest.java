@@ -1,7 +1,9 @@
 package org.max.lesson3.home.accuweather;
 
+import io.qameta.allure.*;
 import org.hamcrest.Matchers;
 import org.junit.jupiter.api.Assertions;
+import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import org.max.lesson3.home.accuweather.AccuweatherAbstractTest;
 import org.max.lesson3.home.accuweather.weather.Weather;
@@ -17,6 +19,12 @@ public class GetWeatherFifteenDayTest extends AccuweatherAbstractTest {
 
 
     @Test
+    @DisplayName("GetWeatherFifteenDayTest")
+    @Description("GET GetWeatherFifteenDay")
+    @Link("")
+    @Severity(SeverityLevel.MINOR)
+    @Owner("Тимошенко Дмитрий")
+    @Story(value = "Тестирование метода GetWeatherFifteenDay")
     void getWeatherFifteenDay_shouldReturn() {
 
         Weather response = given()

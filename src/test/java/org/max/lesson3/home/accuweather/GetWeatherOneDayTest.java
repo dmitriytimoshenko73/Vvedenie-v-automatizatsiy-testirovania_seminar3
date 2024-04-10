@@ -1,17 +1,29 @@
 package org.max.lesson3.home.accuweather;
 
+
+import io.qameta.allure.*;
 import org.hamcrest.Matchers;
 import org.junit.jupiter.api.Assertions;
+import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
-//import org.max.lesson3.seminar.accuweather.AccuweatherAbstractTest;
-//import org.max.lesson3.seminar.accuweather.weather.Weather;
 import org.max.lesson3.home.accuweather.AccuweatherAbstractTest;
 import org.max.lesson3.home.accuweather.weather.Weather;
+import org.max.lesson3.home.accuweather.weather.DailyForecast;
+//import org.max.lesson3.seminar.accuweather.weather.Weather;
+
+import java.util.List;
+
 import static io.restassured.RestAssured.given;
 
 public class GetWeatherOneDayTest extends AccuweatherAbstractTest {
 
     @Test
+    @DisplayName("GetWeatherOneDayTest")
+    @Description("GET GetWeatherOneDay")
+    @Link("")
+    @Severity(SeverityLevel.TRIVIAL)
+    @Owner("Тимошенко Дмитрий")
+    @Story(value = "Тестирование метода GetWeatherOneDay")
     void getWeatherOneDay_shouldReturn() {
 
         Weather response = given()

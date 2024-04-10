@@ -1,7 +1,9 @@
 package org.max.lesson3.home.accuweather;
 
+import io.qameta.allure.*;
 import org.hamcrest.Matchers;
 import org.junit.jupiter.api.Assertions;
+import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import org.max.lesson3.home.accuweather.location.Location;
 
@@ -12,6 +14,12 @@ import static io.restassured.RestAssured.given;
 public class GetLocationTest extends AccuweatherAbstractTest{
 
     @Test
+    @DisplayName("GetLocationTest")
+    @Description("GET GetLocation")
+    @Link("")
+    @Severity(SeverityLevel.NORMAL)
+    @Owner("Тимошенко Дмитрий")
+    @Story(value = "Тестирование метода GetLocation")
     void getLocation_search_returnMoscow() {
 
         List<Location> response = given()
